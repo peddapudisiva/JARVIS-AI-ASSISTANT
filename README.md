@@ -1,5 +1,18 @@
 # Jarvis – Minimal Local Voice Assistant (Windows)
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+<!-- If you want GitHub-specific badges (stars/issues/actions), replace USER and REPO below and uncomment -->
+<!--
+[![GitHub stars](https://img.shields.io/github/stars/USER/REPO.svg?style=social)](https://github.com/USER/REPO)
+[![GitHub issues](https://img.shields.io/github/issues/USER/REPO.svg)](https://github.com/USER/REPO/issues)
+[![Build](https://github.com/USER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/USER/REPO/actions)
+-->
+
 A simple Python voice assistant named "Jarvis" that listens for the wake word "jarvis" and executes safe, whitelisted actions on Windows.
 ## Features
 - Wake word detection: say "jarvis" to activate.
