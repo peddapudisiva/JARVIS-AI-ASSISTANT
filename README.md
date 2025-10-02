@@ -1,23 +1,20 @@
 # Jarvis – Minimal Local Voice Assistant (Windows)
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?logo=windows)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-<!-- If you want GitHub-specific badges (stars/issues/actions), replace USER and REPO below and uncomment -->
-<!--
-[![GitHub stars](https://img.shields.io/github/stars/USER/REPO.svg?style=social)](https://github.com/USER/REPO)
-[![GitHub issues](https://img.shields.io/github/issues/USER/REPO.svg)](https://github.com/USER/REPO/issues)
-[![Build](https://github.com/USER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/USER/REPO/actions)
--->
+<!-- GitHub badges -->
+[![GitHub stars](https://img.shields.io/github/stars/peddapudisiva/JARVIS-AI-ASSISTANT.svg?style=social)](https://github.com/peddapudisiva/JARVIS-AI-ASSISTANT)
+[![GitHub issues](https://img.shields.io/github/issues/peddapudisiva/JARVIS-AI-ASSISTANT.svg)](https://github.com/peddapudisiva/JARVIS-AI-ASSISTANT/issues)
+[![Build](https://github.com/peddapudisiva/JARVIS-AI-ASSISTANT/actions/workflows/ci.yml/badge.svg)](https://github.com/peddapudisiva/JARVIS-AI-ASSISTANT/actions)
 
 A simple Python voice assistant named "Jarvis" that listens for the wake word "jarvis" and executes safe, whitelisted actions on Windows.
 ## Features
 - Wake word detection: say "jarvis" to activate.
 - Speech recognition using Google Web Speech API (no key required).
-- Text-to-speech using Windows SAPI5 via `pyttsx3`.
+{{ ... }}
 - Safe commands: open Notepad/Calculator/Paint, open popular sites, Google/Youtube search, tell time/date.
  - Offline STT option via Vosk (no internet required).
  - Global hotkey to trigger listening (default: Alt+J).
