@@ -139,3 +139,40 @@ Edit those dictionaries to add more allowed targets.
 
 ## Notes
 - The default recognizer uses an online API. If you need offline STT, consider Vosk.
+
+## Quick Start
+
+1. Create venv and install deps:
+   ```powershell
+   py -3 -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   ```
+2. Optional: Offline STT (Vosk)
+   - Download `vosk-model-small-en-us-0.15` and extract to `models/`
+   - Set `stt_backend` and `vosk_model_path` in `config.json` (see example: `config.example.json`)
+3. Optional: Gemini AI Q&A
+   - Get key from Google AI Studio and set in your environment or `config.json`
+4. Run Jarvis:
+   ```powershell
+   python jarvis.py
+   ```
+5. Wake and speak commands:
+   - Say "jarvis" → then your instruction
+   - Or use hotkey (default Alt+J)
+
+## Configuration Templates
+
+- Copy `config.example.json` to `config.json` and adjust values
+- Copy `contacts.example.json` to `contacts.json` and add your contacts
+
+These files are git-ignored to protect your privacy.
+
+## Contributing
+
+- Fork the repo, create a feature branch, open a PR
+- Keep commands safe by extending whitelists and intent parsing
+
+## License
+
+This project is released under the MIT License. See `LICENSE` for details.

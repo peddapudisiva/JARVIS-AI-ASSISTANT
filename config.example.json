@@ -1,0 +1,52 @@
+{
+  "wake_word_enabled": true,
+  "hotkey": "alt+j",
+  "language": "en-US",
+  "stt_backend": "google", 
+  "vosk_model_path": "models/vosk-model-small-en-us-0.15",
+
+  "try_all_languages": false,
+  "energy_threshold": 180,
+  "dynamic_energy_threshold": true,
+  "pause_threshold": 0.5,
+  "ambient_noise_duration": 0.8,
+  "non_speaking_duration": 0.15,
+
+  "stt_timeout_wake": 8,
+  "stt_phrase_wake": 4,
+  "stt_timeout_cmd": 6,
+  "stt_phrase_cmd": 5,
+
+  "response_rate": 240,
+  "voice_preference": "british",
+
+  "ai_provider": "gemini",
+  "gemini_model": "gemini-1.5-flash",
+  "google_api_key": "PUT_YOUR_KEY_OR_REMOVE_THIS_FIELD",
+  "conversation_window_seconds": 120,
+  "ai_default_for_questions": true,
+  "ai_default_mode": true,
+  "ai_print_full_answer": false,
+  "ai_tts_max_chars": 280,
+
+  "persona_enabled": true,
+  "wake_reply": "At your service, sir.",
+  "play_wake_chime": true,
+  "play_completion_chime": true,
+
+  "input_control_enabled": true,
+  "scroll_step": 600,
+
+  "communications_enabled": true,
+  "default_message_channel": "whatsapp",
+  "call_handler": "whatsapp",
+  "smtp_enabled": false,
+  "smtp_host": "smtp.example.com",
+  "smtp_port": 587,
+  "smtp_user": "",
+  "smtp_use_tls": true,
+
+  "youtube_play_top": true,
+  "also_open_web_on_ai_answer": false,
+  "web_fallback_on_ai_failure": true
+}

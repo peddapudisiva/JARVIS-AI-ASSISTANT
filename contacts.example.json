@@ -1,0 +1,5 @@
+{
+  "mom": { "phone": "+911234567890", "email": "mom@example.com" },
+  "dad": { "phone": "+911234567891", "email": "dad@example.com" },
+  "venu": { "phone": "+911234567892", "email": "venu@example.com" }
+}
