@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtualenv
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / Dist
+/dist/
+/build/
+*.spec
+
+# Local data / models
+/models/
+/logs/
+*.sqlite3
+*.db
+
+# App-specific local configs (keep sample files instead)
+config.json
+contacts.json
+/jarvis_app/data/

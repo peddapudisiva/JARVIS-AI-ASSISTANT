@@ -1,0 +1,15 @@
+SpeechRecognition==3.10.0
+PyAudio==0.2.14
+pyttsx3==2.90
+pywin32>=307
+vosk==0.3.45
+keyboard==0.13.5
+pycaw==20230407
+comtypes>=1.4.0
+screen-brightness-control==0.22.2
+google-generativeai==0.7.2
+audioop-lts==0.2
+packaging==24.1
+python-dotenv==1.0.1
+PySimpleGUI==5.0.8.3
+pywhatkit==5.4

@@ -1,0 +1,14 @@
+{
+  "open vscode": { "action": "open_app", "target": "vscode" },
+  "open code": { "action": "open_app", "target": "vscode" },
+  "open explorer": { "action": "open_app", "target": "explorer" },
+  "open github": { "action": "open_site", "target": "github" },
+  "open gmail": { "action": "open_site", "target": "gmail" },
+  "play music": { "action": "media", "target": "play_pause" },
+  "pause music": { "action": "media", "target": "play_pause" },
+  "next song": { "action": "media", "target": "next" },
+  "previous song": { "action": "media", "target": "previous" },
+  "volume up": { "action": "volume", "target": "up" },
+  "volume down": { "action": "volume", "target": "down" },
+  "mute": { "action": "volume", "target": "mute" }
+}
